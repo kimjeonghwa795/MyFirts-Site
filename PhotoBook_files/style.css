@@ -1,0 +1,238 @@
+@font-face {
+  font-family: "PF Agora Sans Pro";
+  src: url(../pfago.ttf);
+}
+body {
+  margin: 0;
+}
+.header-fix {
+    background-color: #ffffff;
+}
+.hpanel {
+  display: flex;
+  max-width: 1200px;
+  height: 80px;
+  margin: auto;
+  align-items: center;
+  color: #000000;
+}
+.hpanel > i {
+  font-size: 30px;
+  margin: 0px 66px;
+}
+.hpanel > h1 {
+  text-transform: uppercase;
+}
+.hpanel > .logo::after {
+  content: "\f055";
+  font-family: "FontAwesome";
+}
+.aph {
+  display: flex;
+  margin: auto;
+  margin-right: 55px;
+}
+.aph > i {
+  margin: auto;
+  font-size: 30px;
+    margin-left: 55px;
+}
+.phone {
+  display: flex;
+  border-radius: 10px;
+  background-color: #ffd200;
+  text-decoration: underline;
+  width: 211px;
+  height: 37px;
+  align-items: center;
+  justify-content: center;
+  color: #212121;
+  font-family: "PF Agora Sans Pro";
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.banner {
+  display: flex;
+  background-image: url(../main-banner.png);
+  background-size: cover;
+  height: 547px;
+  width: auto;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  max-width: 776px;
+  max-height: 228px;
+  margin: auto;
+  margin-top: 54px;
+}
+.text > p {
+  text-align: center;
+  color: #000000;
+  font-family: "PF Agora Sans Pro";
+  font-size: 24px;
+  font-weight: 300;
+}
+.text > h1 {
+  color: #000000;
+  font-family: "PF Agora Sans Pro";
+  font-size: 60px;
+  font-weight: 100;
+  font-variant: small-caps;
+}
+.button-make {
+  max-width: 360px;
+  max-height: 66px;
+  border-radius: 10px;
+  border: 1px solid #010101;
+  background-color: rgba(255, 210, 0, 0);
+  margin: auto;
+  margin-top: 70px;
+}
+.button-make > p {
+  padding: 19px 36px 24px;
+  color: #212121;
+  font-family: "PF Agora Sans Pro";
+  font-size: 19px;
+  font-weight: 100;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+}
+.opp {
+  display: flex;
+  max-width: 946px;
+  max-height: 215px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  flex-direction: row;
+}
+.opp > div {
+  width: 139px;
+  height: 139px;
+  border-radius: 100px;
+  font-family: 'Oswald Sans', sans-serif;
+  border: 5px solid #ffd200;
+  background-color: rgba(255, 210, 0, 0);
+}
+.advant {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 817px;
+}
+.a-fix {
+  background-color: #f3f0e7;
+}
+.a-cont {
+  max-width: 1032px;
+  max-height: 682px;
+}
+.a-cont > h1 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: #000000;
+  font-family: "PF Agora Sans Pro";
+  font-size: 60px;
+  font-weight: 100;
+  font-variant: small-caps;
+}
+.advant-ph-t {
+  width: 1036px;
+  height: 408px;
+  display: inline-flex;
+  justify-content: space-between;
+  margin: 67px 0px 0px;
+}
+.circle {
+  background-color: #ffffff;
+  width: 267px;
+  height: 267px;
+  border-radius: 200px;
+}
+.a-text > h1 {
+  color: #000000;
+  font-family: "PF Agora Sans Pro";
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+.a-text > p {
+  color: #000000;
+  font-family: "PF Agora Sans Pro";
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+}
+.a-text {
+  width: 262px;
+  height: 131px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.social-ph {
+  background-image: url(../social.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.edit-ph {
+  background-image: url(../cat.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.shadow-ph {
+  width: 133.5px;
+  height: 267px;
+  -moz-border-radius: 150px 0 0 150px;
+  border-radius: 150px 0 0 150px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.teampl-ph {
+  background-image: url(../0.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.make-bu {
+  display: flex;
+  width: 377px;
+  height: 66px;
+  border-radius: 10px;
+  background-color: #e11a27;
+  margin: auto;
+  margin-top: 96px;
+  justify-content: center !important;
+  align-items: center !important;
+  color: #ffffff;
+  font-family: "PF Agora Sans Pro";
+  font-size: 30px !important;
+  font-weight: 100 !important;
+  text-transform: uppercase;
+}
+.book-fix {
+  width: auto;
+  background-color: #ffffff;
+}
+.book {
+  /*max-*/width: 1079px;
+  /*max-*/height: 544px;
+  display: flex;
+}
+.book > h1 {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      color: #000000;
+      font-family: "PF Agora Sans Pro";
+      font-size: 60px;
+      font-weight: 100;
+      font-variant: small-caps;
+  }
+}

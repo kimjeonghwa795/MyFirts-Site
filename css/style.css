@@ -1,0 +1,838 @@
+@font-face {
+  font-family: "PF Agora Sans Pro";
+  src: url(../pfago.ttf);
+}
+body {
+  margin: 0;
+}
+.header-fix {
+    background-color: #ffffff;
+}
+.hpanel {
+  display: flex;
+  max-width: 1200px;
+  height: 80px;
+  margin: auto;
+  align-items: center;
+  color: #000000;
+}
+.hpanel > i {
+  font-size: 30px;
+  margin: 0px 66px;
+}
+.hpanel > h1 {
+  text-transform: uppercase;
+}
+.hpanel > .logo::after {
+  content: "\f055";
+  font-family: "FontAwesome";
+}
+.aph {
+  display: flex;
+  margin: auto;
+  margin-right: 55px;
+}
+.aph > i {
+  margin: auto;
+  font-size: 30px;
+    margin-left: 55px;
+}
+.phone {
+  display: flex;
+  border-radius: 10px;
+  background-color: #ffd200;
+  text-decoration: underline;
+  width: 211px;
+  height: 37px;
+  align-items: center;
+  justify-content: center;
+  color: #212121;
+  font-family: "PF Agora Sans Pro";
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.banner {
+  display: flex;
+  background-image: url(../main-banner.png);
+  background-size: cover;
+  height: 547px;
+  width: auto;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  max-width: 776px;
+  max-height: 228px;
+  margin: auto;
+  margin-top: 54px;
+}
+.text > p {
+  text-align: center;
+  color: #000000;
+  font-family: "PF Agora Sans Pro";
+  font-size: 24px;
+  font-weight: 300;
+}
+.text > h1 {
+  color: #000000;
+  font-family: "PF Agora Sans Pro";
+  font-size: 60px;
+  font-weight: 100;
+  font-variant: small-caps;
+}
+.button-make {
+  width: 377px;
+  height: 66px;
+  display: flex;
+  border-radius: 10px;
+  border: 1px solid #010101;
+  background-color: rgba(255, 210, 0, 0);
+  margin: auto;
+  margin-bottom: 0;
+  justify-content: center !important;
+  align-items: center !important;
+  color: #212121;
+  font-family: "PF Agora Sans Pro";
+  font-size: 26px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.fix {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.opp {
+  margin-top: 55px;
+  display: flex;
+  max-width: 946px;
+  height: 365px;
+  margin: auto;
+  background-image: url(../11-layers.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-direction: row;
+  margin-top: -55px;
+
+}
+.opp > h2 {
+  display: flex;
+  color: #000000;
+  font-family: "PF Agora Sans Pro";
+  font-size: 24px;
+  font-weight: 300;
+  justify-content: flex-end;
+  margin-right: 170px;
+  text-align: center;
+  margin-left: 18px;
+  margin-top: 262px;
+}
+.opp > div {
+  width: 139px;
+  height: 139px;
+  border-radius: 100px;
+  font-family: 'Oswald Sans', sans-serif;
+  border: 5px solid #ffd200;
+  background-color: rgba(255, 210, 0, 0);
+}
+.advant {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 817px;
+}
+.a-fix {
+  background-color: #f3f0e7;
+}
+.a-cont {
+  max-width: 1032px;
+  max-height: 682px;
+}
+.a-cont > h1 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: #000000;
+  font-family: "PF Agora Sans Pro";
+  font-size: 60px;
+  font-weight: 100;
+  font-variant: small-caps;
+}
+.advant-ph-t {
+  width: 1036px;
+  height: 408px;
+  display: inline-flex;
+  justify-content: space-between;
+  margin: 67px 0px 0px;
+  flex-wrap: nowrap;
+}
+.circle {
+  background-color: #ffffff;
+  width: 267px;
+  height: 267px;
+  border-radius: 200px;
+}
+.a-text > h1 {
+  color: #000000;
+  font-family: "PF Agora Sans Pro";
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+.a-text > p {
+  color: #000000;
+  font-family: "PF Agora Sans Pro";
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+}
+.a-text {
+  width: 262px;
+  height: 131px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.social-ph {
+  background-image: url(../social.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.edit-ph {
+  background-image: url(../cat.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.shadow-ph {
+  width: 133.5px;
+  height: 267px;
+  -moz-border-radius: 150px 0 0 150px;
+  border-radius: 150px 0 0 150px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.teampl-ph {
+  background-image: url(../0.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.make-bu {
+  display: flex;
+  width: 377px;
+  height: 66px;
+  border-radius: 10px;
+  background-color: #e11a27;
+  margin: auto;
+  margin-top: 96px;
+  justify-content: center !important;
+  align-items: center !important;
+  color: #ffffff;
+  font-family: "PF Agora Sans Pro";
+  font-size: 30px ;
+  font-weight: 100 !important;
+  text-transform: uppercase;
+}
+.book-fix {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+.book {
+  max-width: 1079px;
+  max-height: 544px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.book > h1 {
+  display: flex;
+  color: #000000;
+  font-family: "PF Agora Sans Pro";
+  font-size: 60px;
+  font-weight: 100;
+  font-variant: small-caps;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.solut-bl {
+  display: inline-flex;
+  justify-content: space-between;
+  max-width: 1079px;
+  max-height: 419px;
+  margin-top: 83px;
+}
+.solut {
+  display: inline-flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 313px;
+  max-height: 419px;
+  border-radius: 10px;
+  border: 5px solid #ffd200;
+  background-color: white;
+}
+.marg {
+
+  margin-right: 70px;
+}
+.solut > h1 {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #ffd200;
+  color: #000000;
+  font-family: "PF Agora Sans Pro";
+  font-size: 36px;
+  font-weight: 400;
+  font-variant: small-caps;
+  z-index: 2
+}
+.solut > h3 {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 47px;
+  background-color: #ffd200;
+  color: #000000;
+  font-family: "PF Agora Sans Pro";
+  font-size: 22px;
+  font-weight: 100;
+  font-variant: small-caps;
+  z-index: 2;
+}
+
+
+.solut > .top {
+  border-bottom: 100px solid #ffd200;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  max-height: 22px !important;
+  max-width: 208px;
+  position: absolute;
+  margin-top: -32px;
+  margin-left: 50px;
+}
+.top > p {
+  display: flex;
+  justify-content: center;
+  color: #e11a27;
+  font-family: "PF Agora Sans Pro";
+  font-size: 21px;
+  font-weight: 700;
+  font-variant: small-caps;
+}
+.des-fix {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 252px;
+}
+.descript {
+  width: 249px;
+  height: 213px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.descript > p {
+  display: flex;
+  color: #000000;
+  font-family: "PF Agora Sans Pro";
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+}
+.descript > p::before {
+  margin-right: 17px;
+  content: url(../layer-6-copy-4.png)
+}
+.price {
+  display: flex;
+  margin: auto;
+  margin-bottom: 0;
+  color: #000000;
+  font-family: "PF Agora Sans Pro";
+  font-size: 60px;
+  font-weight: 300;
+}
+.price::before {
+  content: "$"
+}
+.testimon-fix {
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 767px;
+  background-image: url(../banner-2.png);
+  background-size: cover;
+}
+.testimon {
+  margin-left: 216px;
+  /*max-*/width: 544px;
+  /*max-*/height: 672px;
+  display: flex;
+  flex-direction: column;
+
+}
+.testimon > h1 {
+  color: #000000;
+  font-family: "PF Agora Sans Pro";
+  font-size: 60px;
+  font-weight: 100;
+  font-variant: small-caps;
+}
+.testi-tab {
+  /*max-*/width: 542px;
+  /*max-*/height: 392px;
+}
+.avatar {
+  /*max-*/width: 355px;
+  /*max-*/height: 158px;
+    display: flex;
+}
+.avatar-img {
+  background-image: url(../muzik.jpeg);
+  width: 158px;
+  height: 158px;
+  border-radius: 200px;
+}
+.inf > h1 {
+  color: #000000;
+  font-family: "PF Agora Sans Pro";
+  font-size: 30px;
+  font-weight: 300;
+  font-variant: small-caps;
+}
+.inf > h2 {
+  color: #000000;
+  font-family: "PF Agora Sans Pro";
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 0;
+}
+.inf {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+}
+.testi-text > h1 {
+  color: #000000;
+  font-family: "PF Agora Sans Pro";
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+}
+.testi-contr > button {
+  display: flex;
+  background-color: rgba(255, 0, 0, 0);
+  border: 0px;
+  width: 142px;
+  height: 11px;
+  color: #000000;
+  font-family: "PF Agora Sans Pro";
+  font-size: 16px;
+  font-weight: 100;
+}
+.testi-contr > button::after {
+  content: "\f178";
+  font-family: "FontAwesome";
+  margin-left: 5px;
+}
+.testi-contr {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.pay-fix {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 659px;
+  flex-direction: column;
+  align-items: center;
+}
+.pay {
+  max-width: 1079px;
+  max-height: 307px;
+  margin-top: 92px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.foo-block {
+  display: flex;
+  max-width: 313px;
+  max-height: 307px;
+  flex-direction: column;
+}
+.foo-name {
+  max-width: 313px;
+  max-height: 65px;
+  border-radius: 10px 10px 0 0;
+  background-color: #ffd200;
+  color: #000000;
+  font-family: "PF Agora Sans Pro";
+  font-size: 36px;
+  font-weight: 300;
+  font-variant: small-caps;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6px;
+}
+.foo-inf {
+  width: 313px;
+  height: 236px;
+  border-radius: 0 0 10px 10px;
+  background-color: #f7f0e6;
+  color: #000000;
+  font-family: "PF Agora Sans Pro";
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  /*justify-content: center;
+  align-items: center;*/
+  padding: 31px 35px 38px;
+  text-align: left;
+  flex-direction: column;
+}
+.foo-inf > ul {
+  text-align: left;
+}
+.foo-ing > strong {
+  color:#e11a27;
+  font-weight: 700;
+  font-variant: small-caps;
+}
+.footer-fix {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffd200;
+  height: 377px;
+  flex-direction: column;
+}
+.footer {
+  display: flex;
+  /*max-*/width: 1080px;
+  /*max-*/height: 270px;
+  justify-content: space-around;
+}
+.block {
+  display: flex;
+  flex-direction: column;
+  width: 152px;
+  height: 1px;
+  background-color: #000000;
+}
+.block > a {
+  color: #000000 !important;
+  font-family: "PF Agora Sans Pro";
+  font-size: 18px;
+  font-weight: 400;
+  transition: all .5s ease;
+  margin-top: 7px;
+}
+.block > a :hover {
+  transition: top 1s ease-out 0.5s
+  color:white !important;
+}
+.navig {
+  display: flex;
+  justify-content: space-between;
+  width: 618px;
+  height: 139px;
+}
+.footer-inf {
+  width: 154px;
+  height: 217px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-soc {
+  width: 152px;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+}
+.soc-block {
+  display: flex;
+  flex-direction: row;
+  width: 152px;
+  height: 1px;
+  background-color: #000000;
+}
+.soc-block > a {
+  color: #000000 !important;
+  font-family: "PF Agora Sans Pro";
+  font-size: 18px;
+  font-weight: 400;
+  transition: all .5s ease;
+  margin-top: 7px;
+  margin-right: 20px;
+  font-size: 30px;
+}
+.soc-block > a :hover {
+  transition: top 1s ease-out 0.5s
+  color:white !important;
+}
+.design {
+  display: flex;
+  width: 87px;
+  height: 109px;
+  border-radius: 10px;
+  border: 1px solid #010101;
+  background-color: rgba(138, 255, 80, 0);
+  margin: auto;
+  margin-bottom: 0;
+  margin-left: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.logo > p {
+  color: #000000;
+  font-family: "PF Agora Sans Pro";
+  font-size: 11px;
+  font-weight: 400;
+}
+.footer-fix > h1 {
+  color: #000000;
+  font-family: "PF Agora Sans Pro";
+  font-size: 14px;
+  font-weight: 400;
+  font-variant: small-caps;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+}
+.imagee {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.marg2 {
+  margin-right: 70px;
+}
+.marg3 {
+  /*margin: 0;*/
+}
+.marg4 {
+  margin-right: 0px;
+}
+@media (max-width:1100px){
+  .navig {
+  width: 570px;
+}
+.marg4 {
+  margin-left: 70px;
+}
+  .opp {
+    max-width: 875px;
+    height: 365px;
+    background-size: 870px;
+  }
+  .opp > h2 {
+    margin-left: -5px;
+    font-size: 27px;
+  }
+  .design {
+    width: 136px;
+    height: 158px;
+  }
+  .logo > p {
+    font-size: 25px
+  }
+  .logo > a > img {
+    margin-left: 30px;
+  }
+  .footer-fix > h1 {
+    font-size: 30px;
+  }
+  .block > a {
+    font-size: 40px;
+  }
+  .aph > i {
+    font-size: 45px;
+  }
+  .phone {
+    width: 255px;
+    height: 55px;
+    font-size: 25px;
+  }
+  .hpanel {
+    height: 110px;
+  }
+  .inf > h1 {
+    font-size: 42px;
+  }
+  .pay-fix > .make-bu {
+    margin-top: 390px;
+  }
+  .pay-fix {
+    height: 950px;
+  }
+  .foo-block {
+    max-width: 341px;
+    max-height: 341px;
+  }
+  .pay {
+    flex-wrap: wrap;
+  }
+  .avatar {
+    width: 425px;
+  }
+  .testi-contr > button::after {
+    font-size: 65px;
+  }
+  .testi-contr > button {
+    font-size: 34px;
+  }
+  .inf > h2 {
+    font-size: 29px;
+  }
+  .testimon > .button-make {
+    margin-bottom: -260px;
+
+  }
+  .testi-text > h1 {
+    font-size: 34px;
+  }
+  .testimon-fix {
+    background-position: center;
+    height: 1030px;
+    align-items: baseline;
+  }
+  .testimon {
+    margin-left: 165px;
+    margin-top: 30px;
+
+  }
+  .text > .button-make {
+    width: 462px;
+    height: 100px;
+    font-size: 39px;
+  }
+  .text {
+    max-height: 260px;
+  }
+  .text > h1 {
+    font-size: 66px;
+  }
+  .text > p {
+    font-size: 46px;
+  }
+  .top > p {
+    font-size: 32px;
+  }
+  .solut > h3 {
+    font-size: 29px;
+    height: 64px;
+  }
+  .descript > p {
+    font-size: 30px;
+  }
+  .descript {
+    width: 280px;
+    height: 238px;
+  }
+  .price {
+    font-size: 70px;
+  }
+  .solut > .top {
+    margin-left: 33px;
+    max-width: 250px;
+  }
+  .solut > h1 {
+  font-size: 48px;
+  }
+  .book > h1 {
+    margin: 40px 25px 60px;
+  }
+  .marg3 {
+    margin-top: 50px;
+  }
+  .marg2 {
+    margin-right: 0;
+  }
+  .a-cont > h1 {
+    margin-top: 40px;
+  }
+  .advant-ph-t {
+    flex-wrap: wrap;
+    justify-content:center;
+    margin: 0;
+  }
+  .book-fix {
+    height: 1015px;
+    align-items: baseline;
+    height: 1105px;
+
+  }
+  .make-bu {
+    width: 500px;
+    height: 110px;
+    font-size: 43px;
+  }
+  .advant {
+    height: 1710px;
+    align-items: baseline;
+  }
+  .imagee {
+    /*margin-bottom: 45px;*/
+    align-items: center;
+  }
+  .margg {
+    margin: auto;
+    margin-top: 900px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .circle {
+    width: 350px;
+    height: 350px;
+  }
+  .shadow-ph {
+    height: 350px;
+    width: 175px;
+    border-radius: 175px 0 0 175px;
+  }
+  .teampl-ph {
+    background-size: 350px;
+  }
+  .social-ph {
+    background-size: 285px;
+  }
+  .a-text {
+    width: 520px;
+    height: 450px;
+    justify-content: center;
+  }
+  .a-text > h1 {
+    font-size: 45px;
+  }
+  .a-text > p {
+    font-size: 30px;
+  }
+  .solut-bl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+  }
+
+}
+img {max-width: 100%;}
